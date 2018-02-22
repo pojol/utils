@@ -21,7 +21,7 @@ help_str = '[' + hstr + '] ' + '[' + wfstr +' dir ext]' + '[' + lstr + '] [' + r
            "--write] file\n" \
            "--clear matching words\n"\
 
-INTERVAL = 0.01
+INTERVAL = 0.01 
 
 normal_list = []
 high_list = []
