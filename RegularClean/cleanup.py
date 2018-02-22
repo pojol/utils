@@ -6,7 +6,7 @@ def job():
     print("clean")
     os.system("rm -rf /home/tmp/*")
 
-schedule.every().second.do(job)
+schedule.every().day.do(job)
 
 while True:
     schedule.run_pending()
